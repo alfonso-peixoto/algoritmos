@@ -1,6 +1,6 @@
 public class Challenge {
 	public static int howManySeconds(int hours) {
-		howManySeconds = hours * 3600;
+		int howManySeconds = hours * 3600;
 		return howManySeconds;
   }
 }
