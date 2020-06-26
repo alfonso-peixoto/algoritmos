@@ -1,0 +1,58 @@
+body {
+	font-family: "Lucida Sans Unicode";
+	font-size: 30px;
+}
+
+header {
+	background: #690218;
+	padding-bottom: 82px;
+	padding-left: 15px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+header input {
+    right: 0px;
+	bottom: 30px;
+	position: absolute;
+}
+
+#pesquisa {
+	margin-right: 10px;
+}
+
+#logotipo {
+	padding-left: 6px;
+	float: left;
+}
+
+#menu {
+	background-color: #8BDAFB;
+	float: left;
+	margin: 0 10px 0 0;
+	padding-right: 20px;
+	padding-left: 5px;
+	height: 500px;
+}
+
+section  p {
+	font-weight: bold;
+	text-align: center;
+}
+
+#principal {
+	background-color: #EEEEEE;
+	width: 950px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 125px;
+	padding-bottom: 125px;
+}
+
+footer {
+	background-color: #788A20;
+	text-align: center;
+	margin-top: 419px;
+	padding-top: 29px;
+	padding-bottom: 29px;
+}

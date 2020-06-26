@@ -1,0 +1,47 @@
+body {
+	font-family: Arial;
+}
+
+.italico {
+	font-style: italic;
+}
+
+table#tabelaspec {
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#tabelaspec caption {
+	color: #AAAAAA;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+table#tabelaspec caption span#data {
+	display: block;
+	float: right;
+	font-size: 10px;
+	margin-top: 10px;
+}
+
+table#tabelaspec td {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	vertical-align: top;
+}
+
+table#tabelaspec td.ce {
+	color: #FFFFFF;
+	background-color: #000000;
+	vertical-align: top;
+	font-weight: bold;
+	text-align: right;
+}
+
+table#tabelaspec td.cd {
+	background-color: #8A8A8A;
+	text-align: left;
+}

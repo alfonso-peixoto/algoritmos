@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Ficha Cadastral</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<form>
+			<table id="tabela">
+				<caption>Ficha Cadastral</caption>
+				<tr>
+					<td>
+						<label for "nome">Nome:</label>
+					</td>
+					<td colspan="3">
+						<input type="text" id="nome" size="54" autofocus required />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="rg">RG:</label>
+					</td>
+					<td>
+						<input type="number" id="rg" style="width: 138px" />
+					<td>
+						<label for="cpf">C.P.F.:</label>
+					</td>
+					<td>
+						<input type="number" id="cpf" min="11" style="width: 138px" required />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for "endereco">Endereço:</label>
+					</td>
+					<td colspan="3">
+						<input type="text" id="endereco" size="54" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="sexo">Sexo:</label>
+					</td>
+					<td>
+						<select>
+							<option>Masculino</option>
+							<option>Feminino</option>
+						</select>
+					</td>
+					<td>
+						<label for="nascimento">Data Nascimento:</label>
+					</td>
+					<td>
+						<input type="date" id="nascimento" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Situação civil</p>
+					</td>
+					<td>
+						<input type="radio" id="situacao">
+						<label for="situacao">Solteiro(a)</label>
+					</td>
+					<td>
+						<input type="radio" id="situacao">
+						<label for="situacao">Casado(a)</label>
+					</td>
+					<td>
+						<input type="radio" id="situacao">
+						<label for="situacao">Viúvo(a)</label>
+					</td>
+				</tr>	
+			</table>
+			&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="submit" value="Enviar" class="centralizar">		
+			<input type="reset" value="Limpar Dados" class="centralizar">
+		</form>
+	<body>
+</html>
