@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html style="font-family: Verdana, Serif;">
+	<head>
+		<title>André Alfonso Peixoto | Página pessoal</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1 style="font-size: 40px; color: #7635F5;">Página pessoal</h1>
+		<img src="http://infopt-br.examtime.com/files/2014/02/certo.jpg" />
+		<hr>
+		<h2>Informações básicas</h2>
+		<p>O meu nome é <strong>André Alfonso Peixoto</strong>. Nasci na cidade de Pindamonhangaba, localizada no interior do estado de São Paulo. Já morei em cinco cidades distintas de quatro estados do Brasil.</p>
+		<br>
+		<h2>Lista de passatempos</h2>
+		<ul>
+			<li>estudar diferentes línguas;</li>
+			<li>conhecer assuntos de diversas áreas; e</li>
+			<li>jogar jogos eletrônicos.</li>
+		</ul>
+		<h3>Sobre os passatempos</h3>
+		<h4 style="color: #FF0000">Línguas</h4>
+		<p>Às vezes, gosto de compreender línguas estrangeiras e estudar algumas particularidades da Língua Portuguesa. Faço uso do sítio <a href="https://www.duolingo.com/"><strong><em>Duolingo</em></strong></a>.</p>
+		<h4 style="color: #00FF00">Conhecimento</h4>
+		<p>Costumo passar uma parte considerável de meu tempo buscando entender temas de vários campos do conhecimento.</p>
+		<h4 style="color: #0000FF">Jogos eletrônicos</h4>
+		<p>Tenho a satisfação de jogar jogos eletrônicos de algumas séries, tais como <a href="https://pt.wikipedia.org/wiki/Mega_Man" target="_blank"><em>Mega Man</em></a>, <a href="https://pt.wikipedia.org/wiki/Kirby" target="_blank"><em>Kirby</em></a> e <a href="https://pt.wikipedia.org/wiki/Mario_(personagem)" target="_blank"><em>Mario</em></a>.</p>
+	</body>
+</html>
