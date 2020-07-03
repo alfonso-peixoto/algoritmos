@@ -1,14 +1,14 @@
-algoritmo "Programa de Adição, Subtração e Multiplicação de Matrizes"
-// Função : Somar, subtrair e multiplicar duas matrizes geradas aleatoriamente
-// Autores : André, Renato e Suzana
+algoritmo "Programa de AdiÃ§Ã£o, SubtraÃ§Ã£o e MultiplicaÃ§Ã£o de Matrizes"
+// FunÃ§Ã£o : Somar, subtrair e multiplicar duas matrizes geradas aleatoriamente
+// Autores : AndrÃ©, Renato e Suzana
 // Data : 23/06/2015
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
    A, B: vetor [1..4, 1..4] de inteiro
    C, D, F: vetor [1..4, 1..4] de inteiro
    i, j: inteiro
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
    Escreval ("Matriz A:")
    Para i de 1 ate 4 faca
       Para j de 1 ate 4 faca
@@ -38,7 +38,7 @@ inicio
    Fimpara
    Escreval ("")
    Pausa
-   Escreval ("Matriz D resultante da subtração da matriz A com a B:")
+   Escreval ("Matriz D resultante da subtraÃ§Ã£o da matriz A com a B:")
    Para i de 1 ate 4 faca
       Para j de 1 ate 4 faca
          D [i,j] := A [i, j] - B [i, j]
@@ -48,7 +48,7 @@ inicio
    Fimpara
    Escreval ("")
    Pausa
-   Escreval ("Matriz E resultante da multiplicação da matriz A com a B:")
+   Escreval ("Matriz E resultante da multiplicaÃ§Ã£o da matriz A com a B:")
    Para i de 1 ate 4 faca
       Para j de 1 ate 4 faca
          F [i, j] := A [i, 1] * B [1, j] + A [i, 2] * B [2, j] + A [i, 3] * B [3, j] + A [i, 4] * B [4, j]
