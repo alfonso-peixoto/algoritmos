@@ -32,4 +32,5 @@ main()
 	{
 		printf("Aluno reprovado");
 	}
+	system("PAUSE");
 }
