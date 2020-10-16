@@ -22,15 +22,15 @@ main()
 	
 	if (media > 7)
 	{
-		printf("Aluno aprovado");
+		printf("Aluno aprovado\n");
 	}
 	else if (media > 5)
 	{
-		printf("Aluno em prova final");
+		printf("Aluno em prova final\n");
 	}
 	else
 	{
-		printf("Aluno reprovado");
+		printf("Aluno reprovado\n");
 	}
 	system("PAUSE");
 }
