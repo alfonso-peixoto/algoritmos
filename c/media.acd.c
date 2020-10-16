@@ -20,11 +20,11 @@ main()
 	media = (n1+n2) / 2;
 	printf("Media: %f\n", media);
 	
-	if (media > 7)
+	if (media >= 7)
 	{
 		printf("Aluno aprovado\n");
 	}
-	else if (media > 5)
+	else if (media >= 5)
 	{
 		printf("Aluno em prova final\n");
 	}
