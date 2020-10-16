@@ -13,6 +13,5 @@ main()
 	{
 		printf("Impar\n");
 	}
-	
 	system("PAUSE");
 }
