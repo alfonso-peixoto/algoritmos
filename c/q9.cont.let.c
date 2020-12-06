@@ -1,17 +1,27 @@
+/*
+9. Faça um programa que receba uma frase (máximo 100 caracteres) e uma letra qualquer, calcule e mostre a quantidade que essa letra aparece na frase digitada. 
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
-int contador(char str[])
+main()
 {
-	char caractere;
-	printf("Informe um caractere: ");
-	scanf("%c",&caractere);
-    int count = 0, k = 0;
-    while (str[k] != '\0')
-    {
-          if (str[k] == caractere)
-              count++;
-          k++;
-    }
-    return count;
+	int i;
+	char str[100];
+	char c;
+	int aparicoesLetra = 0;
+	printf("Informe uma String: ");
+    fgets(str, 100, stdin);
+    printf("Informe um caractere: ");
+    scanf(" %c", &c);
+	for (i=0; i<100; i++)
+	{
+		if (str[i] == c)
+		{
+			aparicoesLetra += 1;
+		}
+	}
+	printf("A letra aparece %d vezes na frase digitada", aparicoesLetra);
+    return 0;
 }
