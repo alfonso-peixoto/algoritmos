@@ -1,52 +1,76 @@
 /*
-8. FaÁa um programa C para calular o n˙mero de l‚mpadas 60 watts necess·rias para um determinado cÙmodo.
-O programa dever· ler um conjunto de informaÁıes, tais como: tipo, largura e comprimento do cÙmodo.
-O programa termina quando o tipo de cÙmodo for igual -1. A tabela abaixo mostra, para cada tipo de cÙmodo, a quantidade de watts por metro quadrado.
+8. Fa√ßa um programa C para calular o n√∫mero de l√¢mpadas 60 watts necess√°rias para um determinado c√¥modo.
+O programa dever√° ler um conjunto de informa√ß√µes, tais como: tipo, largura e comprimento do c√¥modo.
+O programa termina quando o tipo de c√¥modo for igual -1. A tabela abaixo mostra, para cada tipo de c√¥modo, a quantidade de watts por metro quadrado.
 */
 
 #include<stdio.h>
 #include<stdlib.h>
+#include <math.h>
 
 main()
 {
-	int tipo, largura, comprimento;
+	int tipo;
+	float largura, comprimento;
+	int potencia;
 	int lampadas;
-	printf("Tipos de comodo: 0, 1, 2, 3 e 4");
-	printf("Informe o tipo de comodo: ");
-	scanf("%d",&tipo);
-	printf("Informe a largura do comodo: ");
-	scanf("%d",&largura);
-	printf("Informe o comprimento do comodo: ");
-	scanf("%d",&comprimento);
+	float watts;
+	int controle = 1;
 	
-	float area = largura * comprimento;
-	
-	if (tipo == 0)
+	while (controle == 1)
 	{
-		printf("Triangulo valido\n");
+		printf("Tipos de comodo: 0, 1, 2, 3 e 4 (-1 para encerrar))\n");
+		printf("Informe o tipo de comodo: ");
+		scanf("%d",&tipo);
+		if ((tipo == 0) || (tipo == 1) || (tipo == 2) || (tipo == 3) || (tipo == 4))
+		{
+			printf("Informe a largura do comodo: ");
+			scanf("%f",&largura);
+			printf("Informe o comprimento do comodo: ");
+			scanf("%f",&comprimento);
+		}
+		
+		float area = largura * comprimento;
+		if (tipo == 0)
+		{
+			printf("Potencia: 12 W/m2");
+			potencia = 12;
+		}
+			else if (tipo == 1)
+		{
+			printf("Potencia: 15 W/m2");
+			potencia = 15;
+		}
+		else if (tipo == 2)
+		{
+			printf("Potencia: 18 W/m2");
+			potencia = 18;
+		}
+		else if (tipo == 3)
+		{
+			printf("Potencia: 20 W/m2");
+			potencia = 20;
+		}
+		else if (tipo == 4)
+		{
+			printf("Potencia: 22 W/m2");
+			potencia = 22;
+		}
+		else if (tipo == -1)
+		{
+			printf("Programa encerrado");
+			break;
+		}
+		else
+		{
+			printf("Tipo de comodo invalido\n\n");
+		}
+		if ((tipo == 0) || (tipo == 1) || (tipo == 2) || (tipo == 3) || (tipo == 4))
+		{
+			watts = area * potencia;
+			lampadas = ceil(watts/60);
+			printf("\nO numero minimo de lampadas de 60 W para iluminar a sala e %d\n\n", lampadas);
+		}
 	}
-	else if (tipo == 1)
-	{
-		printf("Triangulo invalido\n");
-	}
-	else if (tipo == 2)
-	{
-		printf("Triangulo equilatero");
-	}
-	else if (tipo == 3)
-	{
-		printf("Triangulo isosceles");
-	}
-	else if (tipo == 4)
-	{
-		printf("Triangulo escaleno");
-	}
-	else if (tipo == -1)
-	{
-		return 0;
-	}
-	else
-	{
-		printf("Tipo de comodo invalido");
-	}
+	return 0;
 }
